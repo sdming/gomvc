@@ -75,7 +75,7 @@ example
   checkout code: example/user_controller.go
 
 * api test demo:
-  cd xxx/example
+  cd xxx/gomvc/example
   go run app/user_server.go
   open link: http://localhost:8080/apitest.html
 
@@ -87,7 +87,7 @@ example
 
 http handle process workflow
 ---
-1. render phsical file if requested file exists
+1. render phsical file if requested file exists(looking for under public folder)
 2. match route, call action method
 3. rend result
 
