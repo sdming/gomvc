@@ -72,12 +72,15 @@ example
 ---
 
 * basic example
+
   checkout code: example/user_controller.go
 
 * api test demo:
-  cd xxx/gomvc/example
-  go run app/user_server.go
-  open link: http://localhost:8080/apitest.html
+  
+  + cd xxx/gomvc/example
+  + go run app/user_server.go
+  + open link: http://localhost:8080/apitest.html
+  
 
 * demo: how to write a customer result(todo:)
 
