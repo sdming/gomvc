@@ -4,7 +4,7 @@ gomvc
 smart web &amp; lightweight  web framework in golang
 
 overview
-------------------------------------------------
+---
 I am a new to golang, write your own code is the best way to learn a new programming language, so gomvc comes into the world.
 
 But it's not a nother wheel, the goal of gomvc is to be a smart & fast web framework let you develop web application in KISS way.
@@ -14,24 +14,24 @@ my english is not fluent, so I try to keep this document straight and simple.
 current version - 0.1
 
 ###features
-
-develop http handle function in straight way
-data validation
-action method is a normal function, so you write unit test code easily
-support RESTful web api
-fully customizable http handler
-session, cookie, auth, bundle, validation...
+---
+*develop http handle function in straight way
+*data validation
+*action method is a normal function, so you write unit test code easily
+*support RESTful web api
+*fully customizable http handler
+*session, cookie, auth, bundle, validation...
 
 ###road map
-
-0.1 - basic functionality, make it work
-0.2 - view enginer
-0.3 - more result
-0.4 - maybe validation
-0.5 - session, cookie, make it better
-0.6 - performance, make it faster
-0.7 - bundle
-0.8 - not planned
+---
+*0.1 - basic functionality, make it work
+*0.2 - view enginer
+*0.3 - more result
+*0.4 - maybe validation
+*0.5 - session, cookie, make it better
+*0.6 - performance, make it faster
+*0.7 - bundle
+*0.8 - not planned
 
 1.0 - release
 
