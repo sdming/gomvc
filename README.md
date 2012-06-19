@@ -70,10 +70,19 @@ server.Start()
 
 example 
 ---
-* basic example: please checkout code: example/user_controller.go
-* api test: goto example folder, run user_server.go, and open link: http://localhost:8080/apitest.html
+
+* basic example
+  checkout code: example/user_controller.go
+
+* api test demo:
+  cd xxx/example
+  go run app/user_server.go
+  open link: http://localhost:8080/apitest.html
+
 * demo: how to write a customer result(todo:)
+
 * demo: how to write a filter(gzip)(todo:)
+
 * demo: how to return file stream(todo:)
 
 http handle process workflow
