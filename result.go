@@ -7,12 +7,12 @@
 package gomvc
 
 import (
-	"net/http"
-	"time"
-	"io"
-	"fmt"
 	"encoding/json"
 	"encoding/xml"
+	"fmt"
+	"io"
+	"net/http"
+	"time"
 )
 
 //execute error result
@@ -70,7 +70,7 @@ type JsonResult struct {
 
 //render json
 func (j *JsonResult) Execute(ctx *HttpContext) {
-	b, err := json.Marshal(ctx.Result)
+	b, err := json.Marshal(j.Data)
 	if err != nil {
 		ctx.ExeError(err.Error())
 		return
@@ -87,7 +87,7 @@ type XmlResult struct {
 
 //render xml
 func (x *XmlResult) Execute(ctx *HttpContext) {
-	b, err := xml.Marshal(ctx.Result)
+	b, err := xml.Marshal(x.Data)
 	if err != nil {
 		ctx.ExeError(err.Error())
 		return
