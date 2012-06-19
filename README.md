@@ -15,25 +15,24 @@ current version - 0.1
 
 features
 ---
-*develop http handle function in straight way
-*data validation
-*action method is a normal function, so you write unit test code easily
-*support RESTful web api
-*fully customizable http handler
-*session, cookie, auth, bundle, validation...
+* develop http handle function in straight way
+* data validation
+* action method is a normal function, so you write unit test code easily
+* support RESTful web api
+* fully customizable http handler
+* session, cookie, auth, bundle, validation...
 
 road map
 ---
-*0.1 - basic functionality, make it work
-*0.2 - view enginer
-*0.3 - more result
-*0.4 - maybe validation
-*0.5 - session, cookie, make it better
-*0.6 - performance, make it faster
-*0.7 - bundle
-*0.8 - not planned
-* ...
-*1.0 - release
+* 0.1 - basic functionality, make it work
+* 0.2 - view enginer
+* 0.3 - more result
+* 0.4 - maybe validation
+* 0.5 - session, cookie, make it better
+* 0.6 - performance, make it faster
+* 0.7 - bundle
+* 0.8 - not planned
+* 1.0 - release
 
 
 quick start
@@ -79,16 +78,16 @@ demo: how to return file stream(todo:)
 
 http handle process workflow
 ---
-1 render phsical file if requested file exists
-2 match route, call action method
-3 rend result
+1. render phsical file if requested file exists
+2. match route, call action method
+3. rend result
 
 http filter
 ---
-*static filter：render a phsical file 
-*render filter: write result to response stream
-*mvc filter: match controller route, call action dynamic
-*more...
+* static filter：render a phsical file 
+* render filter: write result to response stream
+* mvc filter: match controller route, call action dynamic
+* more...
 
 http result
 ---
@@ -98,6 +97,7 @@ http result
 * JavaScriptResult: "application/x-javascript"
 * JsonpResult (TODO:)
 * ViewResult (TODO:)
+* PartialViewResult (TODO:)
 * FileResult (TODO:)
 * FileStreamResult (TODO:)
 * RedirectResult (TODO:)
@@ -107,9 +107,8 @@ http result
 view engine
 ---
 find view template in fllowing priority:
---views\controller_name\view_name
---views\shared\view_name
-
+1. views\controller_name\view_name
+2. views\shared\view_name
 
 invoke viw engine by file extension name
 * .html - html/template 
