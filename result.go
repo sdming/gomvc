@@ -128,7 +128,7 @@ type NotFoundResult struct {
 
 //TODO: render 404.xxx view page
 func (r *NotFoundResult) Execute(ctx *HttpContext) {
-	http.Error(ctx.Resonse, "", http.StatusNotFound)
+	http.Error(ctx.Resonse, MsgNotFound, http.StatusNotFound)
 }
 
 //Error
@@ -146,5 +146,5 @@ type VoidResult struct {
 }
 
 func (r *VoidResult) Execute(ctx *HttpContext) {
-	ctx.Resonse.Write([]byte(`void`))
+	ctx.Resonse.Write([]byte(``))
 }
