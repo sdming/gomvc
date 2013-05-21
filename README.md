@@ -1,6 +1,8 @@
 gomvc
 =====
 
+! move to gwk[https://github.com/sdming/wk]
+
 smart web &amp; lightweight  web framework in golang
 
 overview
